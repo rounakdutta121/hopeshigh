@@ -12,12 +12,30 @@
         <img src="1.jpg"><span class="high">Hopes High!</span>
     </div>
     <div class="body">
-    <div class="img2">
+    <div class="img2 ab">
         <img src="2.jpg">
     </div>
-    <div class="quote1">
+    <div class="quote1 ac">
         <img src="quote1.jpg">
     </div>
     </div>
+    <div class="body">
+        <div class="quote2 ac">
+            <img src="quote2.jpg">
+        </div>
+        <div class="img3 ab">
+            <img src="3.jpg">
+        </div>
+
+    </div>
 </body>
+<script>
+    function playsound(audioname,loop){
+        let audio = new Audio(audioname);
+        audio.loop = loop;
+        audio.play();
+
+    }
+    playsound("1.mp3",true);
+</script>
 </html>
